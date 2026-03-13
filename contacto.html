@@ -1,108 +1,73 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Contact | DysluxZorg</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | DysluxZorg</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+  <header class="top-header">
+    <div class="logo-container">
+      <img src="logo-dysluxzorg.jpg" class="logo-large" alt="DysluxZorg logo">
+    </div>
 
-<header class="top-header">
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="contacto.html">Contact</a>
+    </nav>
+  </header>
 
-<div class="logo-container">
+  <section class="container">
+    <h1>Contact opnemen</h1>
 
-<img src="logo-dysluxzorg.jpg" class="logo-large" alt="DysluxZorg logo">
+    <p>
+      Heeft u vragen over onze zorgdiensten?
+      Neem contact met ons op via het formulier of WhatsApp.
+    </p>
 
-</div>
+    <form action="https://formspree.io/f/xaqpjekp" method="POST">
+      <label for="voornaam">Voornaam</label>
+      <input type="text" id="voornaam" name="voornaam" required>
 
-<nav class="main-nav">
-<a href="index.html">Home</a>
-<a href="contacto.html">Contact</a>
-</nav>
+      <label for="achternaam">Achternaam</label>
+      <input type="text" id="achternaam" name="achternaam" required>
 
-</header>
+      <label for="telefoon">Telefoonnummer</label>
+      <input type="tel" id="telefoon" name="telefoon" required>
 
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
 
+      <label for="bericht">Bericht</label>
+      <textarea id="bericht" name="bericht" rows="5" required></textarea>
 
-<section class="container">
+      <button type="submit">Versturen</button>
+    </form>
 
-<h1>Contact opnemen</h1>
+    <div class="contact-whatsapp">
+      <h2>Direct contact via WhatsApp</h2>
 
-<p>
-Heeft u vragen over onze zorgdiensten?
-Neem contact met ons op via het formulier of WhatsApp.
-</p>
+      <a class="whatsapp-button"
+         href="https://wa.me/31649853724"
+         target="_blank">
+        Stuur een WhatsApp bericht
+      </a>
+    </div>
+  </section>
 
+  <footer>
+    <p>DysluxZorg – Den Haag</p>
+    <p>KvK: 93200854</p>
+    <p>© 2026 DysluxZorg</p>
+  </footer>
 
-<form action="https://formspree.io/f/xaqpjekp" method="POST">
-
-<label>Voornaam</label>
-<input type="text" name="voornaam" required>
-
-<label>Achternaam</label>
-<input type="text" name="achternaam" required>
-
-<label>Telefoonnummer</label>
-<input type="tel" name="telefoon" required>
-
-<label>Email</label>
-<input type="email" name="email" required>
-
-<label>Bericht</label>
-<textarea name="bericht" rows="5" required></textarea>
-
-<button type="submit">Versturen</button>
-
-</form>
-
-
-<div class="contact-whatsapp">
-
-<h2>Direct contact via WhatsApp</h2>
-
-<a class="whatsapp-button"
-href="https://wa.me/31649853724"
-target="_blank">
-
-Stuur een WhatsApp bericht
-
-</a>
-
-</div>
-
-</section>
-
-
-
-<footer>
-
-<p>DysluxZorg – Den Haag</p>
-
-<p>KvK: 93200854</p>
-
-<p>© 2026 DysluxZorg</p>
-
-</footer>
-
-
-
-<a class="whatsapp-float"
-href="https://wa.me/31649853724"
-target="_blank">
-
-WhatsApp
-
-</a>
-
+  <a class="whatsapp-float"
+     href="https://wa.me/31649853724"
+     target="_blank">
+    WhatsApp
+  </a>
 
 </body>
-
 </html>
