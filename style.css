@@ -293,3 +293,44 @@ iframe{
     padding: 12px 16px;
   }
 }
+.why-section{
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.why-section h2{
+  text-align: center;
+  color: #1e4f4f;
+  margin-bottom: 20px;
+}
+
+.why-intro{
+  max-width: 900px;
+  margin: 0 auto 18px;
+  text-align: center;
+}
+
+.why-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 35px;
+}
+
+.why-card{
+  background: #f8fbfb;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.why-card h3{
+  margin-top: 0;
+  color: #1d6d6d;
+}
+
+.why-closing{
+  max-width: 850px;
+  margin: 35px auto 0;
+  text-align: center;
+}
